@@ -1,6 +1,6 @@
 # Home-lab
 
-This repository contains a step-by-step guide for setting up a virtualized Windows Server 2022 environment with a Windows 10 client. The lab is designed for IT professionals, students, and enthusiasts looking to gain hands-on experience with Active Directory, DHCP, and networking.
+This repository is a guide that provides a step-by-step instructional on how to set up and manage a virtualized Windows Server 2022 environment with a Windows 10 client. My home lab is designed for IT professionals, students, and enthusiasts looking to gain hands-on experience with virtual machines, active directory, DHCP, and networking.
 
 ## Project Features
 
@@ -9,10 +9,23 @@ This repository contains a step-by-step guide for setting up a virtualized Windo
 * **DHCP Server Configuration**
 * **Troubleshooting Tips**
   
-## Software Requirements
+## 🛠 Software Requirements
 
-* Oracle VirtualBox or Gnome Boxes (Download)
-* Windows Server 2022 (Download)
-* Windows 10 ISO(Download)
+* [Oracle VirtualBox (Download)](https://www.virtualbox.org/wiki/Downloads)
+* [Windows Server 2022 (Download)](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+* [Windows 10 ISO(Download)](https://www.microsoft.com/software-download/windows10)
 
-# Documentation
+## 🚀 Setup
+
+1. Download and install Oracle VirtualBox.
+2. Follow the step-by-step guide in Acitve-Directory-Lab.md to:
+   * Create and configure Virtual Machines.
+   * Install and configure Windows Server 2022.
+   * Set up networking and services.
+   * Join a Windows 10 client to the domain.
+   * Troubleshoot any issues using the provided troubleshooting section.
+
+## Documentation
+Step 1: Active Directory Lab Documentation
+
+for detailed instructions on setting up the environment.
