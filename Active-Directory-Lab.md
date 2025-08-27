@@ -70,7 +70,7 @@ In the Active Direcotry Domain Services Configuration Wiard:
 * Set **(DSRM) password:** Password123  > **Next**
 * Skip to _Prequistes Check_: **Install** and **Restart PC**
 
- 7. Login Using:
+ 5. Login Using:
     **User**: 1st_Domain/Administrator
     **Password**: Random123
 
