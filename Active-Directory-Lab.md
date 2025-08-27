@@ -13,7 +13,7 @@
 ## Step 2: Installing Server 2022 on VirtualBox
 
 1. Open VirtualBox > Click **New**.
-2. Create Virtual Machine
+2. Create a new Virtual Machine:
     * **Name**: Server2022Lab
     * **ISO Image**: <Server 2022 ISO File>
     * **Type**: Microsoft Windows
@@ -24,26 +24,60 @@
    * **Base Memory**: 2080 MB(2GB) minimum
    * **Processors**: 1 CPU minimum
 
-4. Hard Disk File Location & Size
+4. Hard Disk File Location & Size:
    * (This is dependent on the amount of disk space you're willing to allocate)
    * **25.00 GB** (Minimum Required)
 
 **Finish**
 <img width="941" height="637" alt="Step1_1_VirtualBoxSetupParameters" src="https://github.com/user-attachments/assets/3c94c95a-e437-434f-96e1-ac617bee901f" />
 
-5. Start the VM and mount the Server 2022 ISO file to begin the boot process. On Windows Setup menu:
+5. Start the VM and mount the downloaded Server 2022 **ISO** file to begin the boot process.
  <img width="1155" height="979" alt="Step1_5WindowsBootMenu" src="https://github.com/user-attachments/assets/aee4d975-7a6f-4d5f-b163-939608df96c4" />
 
-
-
-   
- * Click **Next** > **Install Now**
+On the Windows Setup menu:
+* Click **Next** > **Install Now**
 * Select **Windows Server 2022 (Desktop Experience)** > **Next**
 * Select **Custom: Install Microsoft Server** > **Next**
-* (This is going to install Server 2022 OS onto the allocated storage space (25.0 GB Storage) we cofigured earlier on our VM)
+     * (This is going to install Server 2022 OS onto the allocated storage space (25.0 GB Storage) we cofigured earlier on our VM)
 
 
-   
+<img width="1156" height="980" alt="Step1_5_1InstallServer2022Desktop" src="https://github.com/user-attachments/assets/ca239664-48d1-435d-84cb-6652f84c11c8" />
+
+
+## Step 2 : Installing Active Directory  on Server 2022
+
+_Objective: Change the default server name and install Active Directory with our own custom Domain._
+
+1. Press the Windows Home Button, and go to **Settings** > **System** > **About** > **Rename this PC. > Next > Restart Now**
+
+_(Change the PC name to something readble like myServer2022 or anything you find appropriate.)_
+
+<img width="1024" height="768" alt="Step2_1ServerNameChange" src="https://github.com/user-attachments/assets/441cafb7-4b0c-4064-8ad3-791ae95acbd8" />
+
+
+2. Next, Open Server Manager:
+   * Select **Manage** > **Add Roles and Features** > **Next** > **Role-Based Feature-Based Installation**
+     
+ 3. Click **Next** to _Server Roles_ and select **Active Direcotry Domain Services** > **Add Features**
+    
+    <img width="1156" height="980" alt="Step2_2InstallingAD" src="https://github.com/user-attachments/assets/207eaf94-0443-4e32-b519-6e217e0fd994" />
+
+4. Complete the installation process under "_Confirmation_" by clicking **Install**. Then click **Promote this server to a domain controller**
+
+In the Active Direcotry Domain Services Configuration Wiard:
+* Select **Add a new forest**
+**Root Domain Name**: 1st_Domain.com  > **Next**
+* Set **(DSRM) password:** Password123  > **Next**
+* Skip to _Prequistes Check_: **Install** and **Restart PC**
+
+ 7. Login Using:
+    **User**: 1st_Domain/Administrator
+    **Password**: Random123
+
+<img width="1024" height="768" alt="Step2_4LastPicture" src="https://github.com/user-attachments/assets/d89abad2-f87b-479c-b793-2414f2543d5a" />
+
+
+
 
 
 
