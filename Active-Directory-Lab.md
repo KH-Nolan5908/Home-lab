@@ -99,7 +99,7 @@ Objective: Manually create a user account containing all the administrative grou
 
 4. To copy a User and its group policies to create another:
 
-   Right-Click on a user account and select Copy:
+Right-Click on a user account and select Copy:
    (In this case I selected the Administrator account to copy)
       * First Name: helpdesk
       * User logon name: helpdesk
@@ -111,6 +111,31 @@ Objective: Manually create a user account containing all the administrative grou
 
 <img width="1024" height="768" alt="VirtualBox_Server2022Lab_07_09_2025_00_50_20" src="https://github.com/user-attachments/assets/86f649dc-5bfa-41a6-b789-bc4e65285ee1" />
 
+
+## Step 4 : Join Windows 10 to domain, Group Policies, CMD, RSOP Report
+
+_Objective: Install a seperate Workstation and join it to the domain._
+
+1. Create a new VM workstation using the Windows 10 ISO file.
+
+* Open VirtualBox > **New**
+     * Name: **Desktop_2**
+     * Type: **Microsoft Windows**
+     * Version: **Windows 10 (64-Bit)**
+* Hardware:
+   * Base Memory: **4GB**
+   * Processors: **1**
+     
+* Virtual Hard Disk:
+  * Disk Size: **25.00 GB**
+ 
+* Click **Finish**
+
+2. Double clik
+
+
+
+      
 
 
 
