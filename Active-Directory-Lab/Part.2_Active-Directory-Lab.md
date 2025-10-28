@@ -19,14 +19,14 @@ _(Change the PC name to something readble like myServer2022 or anything you find
 
 4. Complete the installation process under "_Confirmation_" by clicking **Install**. Then click **Promote this server to a domain controller**
 
-In the Active Direcotry Domain Services Configuration Wiard:
+In Active Direcotry Domain Services Configuration Wiard:
 * Select **Add a new forest**
-**Root Domain Name**: 1st_Domain.com  > **Next**
+**Root Domain Name**: mydomain.com  > **Next**
 * Set **(DSRM) password:** Password123  > **Next**
 * Skip to _Prequistes Check_: **Install** and **Restart PC**
 
  5. Login Using:
-    **User**: 1st_Domain/Administrator
+    **User**: mydomain/Administrator
     **Password**: Random123
 
 <img width="1024" height="768" alt="Step2_4LastPicture" src="https://github.com/user-attachments/assets/d89abad2-f87b-479c-b793-2414f2543d5a" />
