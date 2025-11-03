@@ -24,8 +24,3 @@ This repository is a guide that provides a step-by-step instructional on how to 
    * Set up networking and services.
    * Join a Windows 10 client to the domain.
    * Troubleshoot any issues using the provided troubleshooting section.
-
-## Documentation
-Step 1: Active Directory Lab Documentation
-
-for detailed instructions on setting up the environment.
