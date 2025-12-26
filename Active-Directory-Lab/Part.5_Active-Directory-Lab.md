@@ -40,8 +40,8 @@ She cannot lock in. How should you resolve this problem in Active Directory?
 
 
 ## 3.) Scenario 3: Changing a user's password
-2. Scenario 3. Patty wants to change her password to a more secured option. She contacts you for assistance.
-How would you resolve her problem in Active Direcotry?
+3. Scenario 3. Patty wants to change her password to a more secured option. She contacts you for your assistance to do so.
+What would you do to resolve her problem in Active Direcotry?
 
 * Navigate to Active Directory Users & Computers:
   * Right-click on mydomain > Find > Patty > Find Now
