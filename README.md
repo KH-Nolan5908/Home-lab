@@ -18,7 +18,7 @@ This repository is a guide that provides a step-by-step instructional on how to 
 ## 🚀 Setup
 
 1. Download and install Oracle VirtualBox.
-2. Follow the step-by-step guide in Acitve-Directory-Lab.md to:
+2. Follow the step-by-step guide in [Acitve-Directory-Lab.md](https://github.com/KH-Nolan5908/Home-lab/tree/main/Active-Directory-Lab) to:
    * Create and configure Virtual Machines.
    * Install and configure Windows Server 2022.
    * Set up networking and services.
