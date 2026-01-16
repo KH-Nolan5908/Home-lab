@@ -1,4 +1,4 @@
-## Active-Directory-Lab Contents
+## Active Directory Home Lab Contents
 
 [1. Step 1: VirtualBox & Server 2022 installation.](https://github.com/KH-Nolan5908/Home-lab/blob/main/Active-Directory-Lab/Part.1_Active-Directory-Lab.md)
 
