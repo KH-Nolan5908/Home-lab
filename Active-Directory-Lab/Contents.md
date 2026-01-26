@@ -11,3 +11,6 @@
 [5. Step 5: Troubleshoot common AD user account issues.](https://github.com/KH-Nolan5908/Home-lab/blob/main/Active-Directory-Lab/Part.5_Active-Directory-Lab.md)
 
 [6. Step 6: Exploring Security Groups, Map Drives, Personal Drives & Map Letters.](https://github.com/KH-Nolan5908/Home-lab/blob/main/Active-Directory-Lab/Part.6_Active-Directory-Lab.md)
+
+[7. Step 7: Removing Task Manager using Group Policy Editor, GPO creation and RSOP.](https://github.com/KH-Nolan5908/Home-lab/blob/main/Active-Directory-Lab/Part.7_Active-Directory-Lab.md)
+ 
